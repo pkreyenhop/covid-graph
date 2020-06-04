@@ -33,9 +33,6 @@
                 (vec (find-property country property))]}))
 
 
-(defn add1 [n]
-  (+ 1 n))
-
 (defn create-corona-chart-nz
   []
   (c/spit (create-corona-chart "New Zealand" "confirmed") "nz.jpg"))
